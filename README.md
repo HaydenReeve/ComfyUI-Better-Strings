@@ -27,7 +27,9 @@ Example:
 >
 > Now, you can plug in a Better String node and it will automatically default to a multiline string, allowing you to see the entire string.
 
-It also allows you to connect the primitive to rerouting nodes, if you're into that sort of thing.
+It also allows you to connect the primitive to rerouting nodes way easier, if you're into that sort of thing.
+
+![image](https://github.com/HaydenReeve/ComfyUI-Better-Strings/assets/39004735/5c04cb66-ab32-44ea-b1e8-67b0b674cca9)
 
 # Installation
 
