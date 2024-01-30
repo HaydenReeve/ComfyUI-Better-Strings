@@ -7,16 +7,17 @@ class BetterString:
     def INPUT_TYPES(s):
         return {
             "required": {
-                "string_field": ("STRING", {
-                    "multiline": True,
-                    "default": ""
-                }),
+                "string": ("STRING", {"multiline": True}),
             },
         }
 
+    FUNCTION = "event"
     RETURN_TYPES = ("STRING",)
 
     CATEGORY = "Better Things 💡"
+
+    def event(self, string):
+        return (string, )
 
 
 NODE_CLASS_MAPPINGS = {
