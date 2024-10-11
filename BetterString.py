@@ -3,7 +3,7 @@ class BetterString:
     def INPUT_TYPES(cls):
         return {
             "optional": {
-                "chain": ("STRING", {"multiline": False}),
+                "chain": ("STRING", {"multiline": False, "forceInput": True, "defaultInput": True}),
             },
             "required": {
                 "string": ("STRING", {"multiline": True}),
