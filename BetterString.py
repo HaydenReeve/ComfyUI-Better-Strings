@@ -10,9 +10,6 @@ class BetterString:
             },
         }
 
-    RETURN_TYPES = ("STRING",)
-    CATEGORY = "Better Things 💡"
-
     def action(self, string, chain="", ):
         if not chain.strip():
             return (string,)
@@ -26,3 +23,5 @@ class BetterString:
         return (chain + string,)
 
     FUNCTION = action.__name__
+    RETURN_TYPES = ("STRING",)
+    CATEGORY = "Better Things 💡"
