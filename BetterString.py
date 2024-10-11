@@ -18,8 +18,10 @@ class BetterString:
             return (string,)
 
         chain = chain.rstrip()
-        if chain[-1] == ",":
-            chain += ", "
+        if chain[-1] != ",":
+            chain += ","
+
+        chain += " "
 
         return (chain + string,)
 
