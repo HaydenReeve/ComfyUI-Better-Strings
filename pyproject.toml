@@ -2,13 +2,13 @@
 name = "comfyui-better-strings"
 description = "Strings should be easy, and simple. This extension aims to provide a set of nodes that make working with strings in ComfyUI a little bit easier."
 version = "1.0.0"
-license = "LICENSE"
+license = { file = "LICENSE" }
 
 [project.urls]
 Repository = "https://github.com/HaydenReeve/ComfyUI-Better-Strings"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "greysion"
 DisplayName = "ComfyUI-Better-Strings"
 Icon = ""
