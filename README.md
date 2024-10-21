@@ -33,6 +33,9 @@ It also allows you to connect the primitive to rerouting nodes way easier, if yo
 
 # Installation
 
+> Please note: I will be supporting the ComfyUI Registry initiative and you will be able to access my nodes directly 
+> through the registry in the future.
+
 Navigate to ComfyUI/custom_nodes in your terminal of choice, then run the following command:
 
 ```bash
