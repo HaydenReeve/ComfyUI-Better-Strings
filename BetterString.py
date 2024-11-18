@@ -18,7 +18,7 @@ class BetterString:
         if chain[-1] != ",":
             chain += ","
 
-        chain += " "
+        chain += "\n\n"
 
         return (chain + string,)
 
